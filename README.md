@@ -13,7 +13,7 @@ El **MPU6050** es un sensor de 6 ejes utilizado en diversas aplicaciones como dr
 2. Lectura de datos: Recopila información del acelerómetro y el giroscopio a través de I2C.
 3. Procesamiento: Aplica algoritmos para interpretar y filtrar los datos en bruto.
 4. Aplicaciones: Control de movimiento, detección de orientación, estabilización, seguimiento de movimiento, etc.
-## Ejemplo de simulación
+## Ejemplo de codigo (C++)
 ```cpp
 // Ejemplo de código para leer datos del MPU6050 utilizando la biblioteca "MPU6050" para Arduino.
 
@@ -39,5 +39,7 @@ void loop() {
   // ...
 }
 ```
+## Video test del sensor
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/a37xWuNJsQI/0.jpg)](http://www.youtube.com/watch?v=a37xWuNJsQI)
 ## Conclusiones
 El **MPU6050** es un sensor versátil que proporciona datos precisos de aceleración y giroscopio en un solo paquete. Su facilidad de uso y amplio rango de aplicaciones lo hacen ideal para proyectos de control de movimiento, detección de orientación, estabilización y seguimiento de movimiento.
